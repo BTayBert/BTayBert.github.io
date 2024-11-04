@@ -1,0 +1,46 @@
+html{
+  height:100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.wholepage{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, black, purple);
+  display: flex;
+  flex-direction: column;
+}
+
+.div1{
+  background-color: white;
+  height: 30px;
+  width: 50px;
+  border: solid red 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.div2{
+  background-color: white;
+  height: 30px;
+  width: 50px;
+ border: solid yellow 5px;
+  margin: auto;
+}
+.top{
+  flex: 3;
+  Aborder: solid 5px;
+}
+.bottom{
+  flex: 5;
+  Aborder: solid yellow;
+}
+.bottom2{
+  display: flex;
+  flex-direction: column;
+}
