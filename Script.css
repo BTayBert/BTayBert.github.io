@@ -1,81 +1,38 @@
-html{
-  height: 100%
-}
-body {
-  height: 100%;
-  margin: 0;
-}
-
-.grad {
+.heading1 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to top, red, blue);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: tomato;
+  max-width: 300px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.head {
-  height: 25px;
-  width: 310px;
-  text-align: center;
-  margin: 0 auto;
-  background-color: pink;
-  box-shadow: 5px 5px 5px black;
-  border: solid 2px;
-  border-radius: 5px;
-}
+.heading1: hover
 
 .spacer {
   height: 10px;
+  width: 100%;
 }
 
-.box1 {
-  flex: 1;
-  height: 200px;
-  min-width: 200px;
-  max-width: 200px;
-  margin-top: 10px;
-  margin-left: 80px;
-  border: solid 3px;
-  border-radius: 50%;
-  transition: 1s;
-  background-color: lightblue;
-}
 
-.box2 {
-  flex: 1;
-  height: 200px;
-  min-width: 200px;
-  max-width: 200px;
-  margin-left: 80px;
-  border: solid 3px;
-  transition: 1s;
-  background-color: lightblue;
-}
-
-.box1:hover {
-  border-radius: 0%;
-  background-color: orange;
-}
-
-.box2:hover {
-  border-radius: 50%;
-  background-color: purple;
-}
-
-.boxholder {
+.nav {
+  width: 100%;
+  background-color: #CEAF22;
   display: flex;
-  flex-wrap: wrap;
+  justidy-context: center;
+  padding: 10px 0;
+  
+.tab {
+  color: blue;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+  transition: 1s;
 }
 
-.top {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  color: pink;
-  font-size: 48px !important;
-}
-
-@media only screen and (max-width: 500px) {
-  .top {
-    display: none;
-  }
+.tab: hover {
+  background-color: orange;
 }
