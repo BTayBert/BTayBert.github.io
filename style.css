@@ -250,8 +250,8 @@ margin: 3px;
 }
 .grid-container {
   display: grid;
-  height: 100%;
-  max-width: 100%;
+  height: 200%;
+  width: 200%;
   grid-template-columns: 49% 49%;
   grid-template-rows: 43% 43%;
   gap: 10px;
