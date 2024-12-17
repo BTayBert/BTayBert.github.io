@@ -15,7 +15,7 @@ body {
   width: 100%;
   z-index: -1;
   margin: 0;
-  background-image: linear-gradient(to bottom, #682EFF, #682EFF);
+  background-image: linear-gradient(to bottom, #682EFF, violet);
 }
 
 .wholepage {
