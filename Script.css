@@ -1,38 +1,320 @@
-.heading1 {
+html {
   height: 100%;
   width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500%;
+  width: 100%;
+  z-index: -1;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #682EFF, #682EFF);
+}
+
+.wholepage {
+  display: flex;
+  flex-direction: column;
+  #background-attackment: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.icondiv {
+  border: 2px solid black;
+  height: 40px;
+  width: 40px;
+  padding: 3px;
+  background: violet;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  right: 1%;
+}
+.icondiv: hover{
+  background: #a7a6a7
+}
+.break {
+  height: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "odsz" 40:
+}
+
+.icon {
+  position: absolute;
+  left: 1%;
+  top: 7%;
+}
+
+.selectcontainer {
+  flex: 2;
+  #height: 100px;
+  #width: 100%;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.select {
+  border: 5px solid;
+  transition: 0.5s;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-left: auto;
+}
+.select: hover {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.display {
+  flex: 7;
+  min-height: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: tomato;
-  max-width: 300px;
-  text-align: center;
-  font-size: 50px;
-}
-
-.heading1: hover
-
-.spacer {
-  height: 10px;
-  width: 100%;
-}
-
-
-.nav {
-  width: 100%;
-  background-color: #CEAF22;
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: flex;
-  justidy-context: center;
-  padding: 10px 0;
-  
-.tab {
-  color: blue;
-  padding: 10px 20px;
   text-align: center;
-  font-size: 19px;
-  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+
+.homepage {
+  height: 100%;
+  width: 100%;
+}
+.homepageimg {
+  height: 100%;
+  width: 100%;
+}
+.div1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: violet;
+}
+
+.rulesheader {
+  text-align: center;
+  font-size: 26px;
+margin: 3px;
+}
+.div1text {
+  flex: 5;
+  #border: 2px solid;
+  display: flex;
+}
+
+.div1text2 {
+  flex: 5;
+  #border: 2px solid;
+  display: flex;
+}
+.brulesimg {
+  flex: 2;
+  max-width: 10%;
+  height: auto;
+  #border: 5px solid;
+  align-self: center;
+}
+.rule {
+  border: 2px solid;
+  border-radius: 5px;
+  flex: 2;
+  margin: 5px;
+  padding: 2px;
+}
+
+.div2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.browsetext {
+  color: black;
+  font-size: 40px;
+}
+
+.browseimg {
+  height: auto;
+  width: 38%;
+  margin: 10px;
+}
+
+.browsebackground {
+  height: 100%;
+  width: auto;
+  background: violet;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.div3 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  #position: absolute;
+}
+
+.introplayer {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.playerheadshot {
+  height: auto;
+  max-width: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex: 2;
+}
+
+.blank {
+  height: auto;
+  max-width: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex: 2;
+}
+.playerdiv {
+  background: violet;
+  #border: 1px solid;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.position {
+  text-align: middle;
+}
+.playername {
+  font-size: 30px;
+  max-width: 180px;
+  text-align: middle;
+}
+.playertext {
+  margin-top: 3px;
+  flex: 5;
+}
+.playertext2 {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  text-align: left;
+  flex: 5;
+}
+.playerdiv: hover {
+  background-color: #acacac;
   transition: 1s;
 }
+.div4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-height: 560px;
+  position: relative;
+  border: 10px solid green;
+  background-color: violet;
+}
+.introcoach {
+  font-size: 20px;
+  margin: 0px;
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  max-width: 100%;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 43% 43%;
+  gap: 10px;
+  padding: 10px;
+}
+.headshot {
+  height: 0px
+}
+.titletest {
+  color: black;
+  font-size: 20px;
+}
+.name {
+  color: black;
+  font-size: px;
+}
+.olivia {
+  border: 1px solid;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.ethan {
+  border: 1px solid;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.sophia {
+  border: 1px solid;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.daniel {
+  border: 1px solid;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.div5 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: violet;
+}
+.seniors {
+#width: auto;
+flex: 1;
+#border: 1px solid;
+text-align: left;
+display: flex;
+}
+.sophomores {
+#width: auto;
+flex: 1;
+#border: 1px solid;
+text-align: center;
+display: flex;
+}
 
-.tab: hover {
-  background-color: orange;
+.border {
+  border: 3px solid;
 }
