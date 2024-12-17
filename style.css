@@ -179,12 +179,12 @@ margin: 3px;
   #position: absolute;
 }
 
-.introplayer {
+.introcake {
   font-size: 30px;
   margin: 5px;
 }
 
-.playerheadshot {
+.cakeshot {
   height: auto;
   max-width: 70px;
   margin-right: 5%;
@@ -203,7 +203,7 @@ margin: 3px;
   margin-bottom: 5px;
   flex: 2;
 }
-.playerdiv {
+.cakediv {
   background: violet;
   #border: 1px solid;
   height: 110px;
@@ -214,7 +214,7 @@ margin: 3px;
 .position {
   text-align: middle;
 }
-.playername {
+.cakename {
   font-size: 30px;
   max-width: 180px;
   text-align: middle;
@@ -231,7 +231,7 @@ margin: 3px;
   text-align: left;
   flex: 5;
 }
-.playerdiv: hover {
+.cakediv: hover {
   background-color: #acacac;
   transition: 1s;
 }
