@@ -300,14 +300,14 @@ margin: 3px;
   flex-wrap: wrap;
   background-color: violet;
 }
-.seniors {
+.reviews1 {
 #width: auto;
 flex: 1;
 #border: 1px solid;
 text-align: left;
 display: flex;
 }
-.sophomores {
+.reviews2 {
 #width: auto;
 flex: 1;
 #border: 1px solid;
