@@ -27,7 +27,6 @@ let timeId;
 let currentImageIndex = 0;
 
 function performAction() {
-	// Get all the images
   const images = [
   document.getElementById("image1"),
   document.getElementById("image2"),
