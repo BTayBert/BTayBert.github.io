@@ -1,39 +1,321 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>My Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      />
+    <link 
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
 </head>
 <body>
+<div class='background'></div>
+  <div class='wholepage'>
+  <div class='icondiv icon'>
+    <span 
+    class="material-symbols-outlined"
+    onclick="show('homepage')"
+    style="font-size: 40px"
+home
+    >
+      home</span
+    >
+    </div>
+    <div class="break"></div>
+    <div class="selectcontainer border">
+      <div class="select" onclick="show('div1')">Buy</div>
+      <div class="select" onclick="show('div2')">Browse</div>
+      <div class="select" onclick="show('div3')">Gallary</div>
+      <div class="select" onclick="show('div4')">Reviews</div>
+      <div class="select" onclick="show('div5')">Contact</div>
+    </div>
+    
+   <div class="display border">
+     <div class="homepage border" id="homepage">
+       <img
+         id="image1"
+         class="homepageimg"
+         src="https://i.pinimg.com/736x/61/f7/95/61f79586562020ba58f96e44bafd7b36.jpg"
+         />
+       <img
+         id="image2"
+         class="homepageimg hide"
+         src="https://www.southernliving.com/thmb/WTC8-jWzQLn2634onG3ycIA9wE0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7642453-Milk-Chocolate-Bar-Cake-Beauty-11824-8777b27fa2b84e9fa5db32404b83ed5b.jpg"
+         />
+         <img
+         id="image3"
+         class="homepageimg hide"
+         src="https://www.fabmood.com/wp-content/uploads/2017/02/wedding-cakes.jpg"
+         />
+         
+         <img
+         id="image4"
+         class="homepageimg hide"
+         src="https://hips.hearstapps.com/del.h-cdn.co/assets/16/38/1280x960/sd-aspect-1474650684-cakes-group-193.jpg?resize=1200:*"
+         />
+         <img
+         id="image5"
+         class="homepageimg hide"
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZq3xcUHjD6F2hVfXPXuBArOIKv2Skmao0WQ&s"
+         />
+       </div><!--hoempage-->
+       <div class="div1 hide border" id="div1">
+         <div class="rilesheader">Buy</div>
+         <div class="div1text">
+           <div class="rule rule1">
+           Cupcakes: $4 
+           </div>
+           <div class="rule rule2">
+           Small Cake: $8
+           </div>
+           <div class="rule rule3">
+           Medium Cake: $12
+           </div>
+         </div>
+         
+         <div class="div1text2">
+           <div class="rule rule4">
+           Large Cake: $15
+           </div>
+           <div class="rule rule5">
+           XL Cake: $20
+           </div>
+           <div class="rule rule6">
+           Specialty: Contact 111-222-3333
+           </div> 
+         </div>
+         <img src='https://hips.hearstapps.com/del.h-cdn.co/assets/16/39/1474982368-vanilla-bean-cake-strawberry-icing-164r.jpg?crop=1.0xw:1xh;center,top&resize=100:*'>
+         
+       </div>
+       
+       <div class="div2 hide border" id="div2">
+         <div class="browsebackground">
+           <div class="browsetext">Browse</div>
+           <img
+           class="browseimg"
+           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRYuw6ct7UiRdGFToJl2u0uYENde8rCEJLiw&s"
+           />
+         </div>
+       </div>
+       
+       <div class="div3 hide border" id="div3">
+       <div class='introplayer'>
+       Gallary
+       </div>
+       <div class='playerdiv'>
+         <img class='playerheadshot' src='https://i.pinimg.com/474x/11/60/73/116073558c0eec80c26847f05cc3eb90.jpg'>
+                  <div class='playertext'>
+           <div class='position'><br></div>
+           <div class='playername'>Vanilla Ice</div>
+         </div>
+         
+       </div>
+       
+       <div class='playerdiv'>
+         <img class='playerheadshot' scr='https://i.pinimg.com/474x/11/60/73/116073558c0eec80c26847f05cc3eb90.jpg'>
+         <div class='playertext'>
+           <div class='position'><br></div>
+           <div class='playername'>Ghost Cake</div>
+         </div>
+         <div class="playertext2">
+         <br>
+         <a href="https://hips.hearstapps.com/del.h-cdn.co/assets/16/39/1474982507-coconut-cake-raspberry-icing-139r.jpg?crop=1.0xw:1xh;center,top&resize=980:*"></a>
+         
+         </div>
+        </div>
+       <!--new player-->
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/16/39/1474982538-chocolate-cake-espresso-icing-073r.jpg?crop=1.0xw:1xh;center,top&resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Espresso</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href='https://www.prettymyparty.com/wp-content/uploads/2018/12/cinderella-birthday-cake.jpg'></a>
+          </div>
+        </div>
+        <!--end player-->
+       <div class='playerdiv'>
+          <img class='playerheadshot' src='https://www.dvo.com/newsletter/weekly/2022/7-8-634/images/jelly-shell.jpeg'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Under the sea</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/cm/15/10/54f64c8f1d5e9_-_peppermint-chocolate-cake-recipe-wdy1212-0ggkwj-xl.jpg?fill=480:722&resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Peppermint</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/480x656/chocolate-raspberry-mousse-cake-2.jpg?resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Chocolate Raspberry</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://www.prettymyparty.com/wp-content/uploads/2018/12/cinderella-birthday-cake.jpg'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Princess</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/doughnut-cake-2.jpg?crop=1.0xw:1xh;center,top&resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Donut Cake</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/480x722/made-from-scratch-strawberries-cream-cake-598x900.jpg?resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Strawberrys & Cream</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/static1squarespace.jpg?crop=1.0xw:1xh;center,top&resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>S'mores</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href='data:image/png;base64,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'></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/480x719/meringuedream581w1.jpg?resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Candy Dream</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+        
+        <div class='playerdiv'>
+          <img class='playerheadshot' src='https://hips.hearstapps.com/del.h-cdn.co/assets/15/39/480x640/pink-lemonade-ombre-cake-3.jpg?resize=980:*'>
+          <div class='playertext'>
+            <div class='position'><br></div>
+            <div class='playername'>Pink Lemonade</div>
+          </div>
+          <div class='playertest2'>
+          <br>
+          <a href=''></a>
+          </div>
+        </div>
+       </div>
+       
+       
+       <div class="div4 hide border" id="div4">
+       <div class='introcoach'>
+       Customer Reviews
+       </div>
+       <div class="grid-container">
+       
+     <div id=box_1 class="olivia">
+       <img class='headshot' src=''>
+       
+       <div class='nameholding'>
+       <div class='titletext'>5 Stars</div>
+       <div class='name'>Olivia T</div>
+         <div class='review'>I ordered the vanilla ice cake and it was perfect! Absolutely delicious!</div>
+       <a href=""></a> 
+     </div>
+       </div>
+       
+       <div id="box_2" class="ethan">
+       <div class='titletext'>5 Stars</div>
+         <div class='name'>Ethan C</div>
+         <div class='review'>I ordered the vanilla ice cake and it was perfect! Absolutely delicious!</div>
+         <a href=""></a>
+       </div>
+       
+       <div id="box_3" class="sophia">
+         <img class='headshot' src=''>
+         <div class='nameholding'>
+         <div class='titletext'> 5 Stars</div>
+         <div class-'name'>Sophia M</div>
+           <div class='review'>I ordered the vanilla ice cake and it was perfect! Absolutely delicious!</div>
+         <a href="">Text</a>
+         </div>
+         
+       </div>
+       <div id="box_4" class="daniel">
+       <img class='headshot' src=''>
+       <div class='nameholding'>
+       <div class-'titletext'>5 Stars</div>
+       <div class='name'>Danial W</div>
+        <div class='review'>I ordered the vanilla ice cake and it was perfect! Absolutely delicious!</div>
+       <a href=""></a>
+       </div>
+       </div>
+     </div>
+   </div>
+    
+    <div class="div5 hide border" id="div5">
+      <div class=seniors>
+      Phone: 111-222-3333<br> 
+      <br>
+      Email: Blakes_cakes@gmail.com<br>
+      <br>
+      Instagram: Blakes_Cakes<br>
+      <br>
+      Twitter: @Blakes_Cakes<br>
+     </div>
+     <div class='sophomores'>
+     <br>
+     Facebook: Blakes_Cakes<br>
+     <br>
+     Threads: Blakes_Cakes<br>
+     </div>
+  </div>
 
-<div class='grad'>
 
-<div class='spacer'>
-
-</div>
-
-<div class='heading1'>
-Blake's Cakes
-</div>
-
-<div class='nav'>
-<div class="tab" onclick="showit('Home')">Home</div>
-<div class="tab" onclick="showit('Browse')">Browse</div>
-<div class="tab" onclick="showit('Buy')">Buy</div>
-<div class="tab" onclick="showit('Gallary')">Gallary</div>
-<div class="tab" onclick="showit('Reviews')">Reviews</div>
-</div>
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
+  <script src="script.js"></script>
 </body>
 </html>
