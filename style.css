@@ -179,12 +179,12 @@ margin: 3px;
   #position: absolute;
 }
 
-.introcake {
+.introplayer {
   font-size: 30px;
   margin: 5px;
 }
 
-.cakeshot {
+.playerheadshot {
   height: auto;
   max-width: 70px;
   margin-right: 5%;
@@ -203,7 +203,7 @@ margin: 3px;
   margin-bottom: 5px;
   flex: 2;
 }
-.cakediv {
+.playerdiv {
   background: violet;
   #border: 1px solid;
   height: 110px;
@@ -214,7 +214,7 @@ margin: 3px;
 .position {
   text-align: middle;
 }
-.cakename {
+.playername {
   font-size: 30px;
   max-width: 180px;
   text-align: middle;
@@ -231,19 +231,18 @@ margin: 3px;
   text-align: left;
   flex: 5;
 }
-.cakediv: hover {
+.playerdiv: hover {
   background-color: #acacac;
   transition: 1s;
 }
 .div4 {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 560px;
+  max-width: 500px;
+  max-height: 560px;
   position: relative;
   border: 10px solid green;
   background-color: ;
-  
 }
 .introcoach {
   font-size: 20px;
@@ -251,8 +250,8 @@ margin: 3px;
 }
 .grid-container {
   display: grid;
-  height: 200%;
-  width: 200%;
+  height: 100%;
+  max-width: 100%;
   grid-template-columns: 49% 49%;
   grid-template-rows: 43% 43%;
   gap: 10px;
@@ -295,20 +294,20 @@ margin: 3px;
 }
 .div5 {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: violet;
 }
-.reviews1 {
+.seniors {
 #width: auto;
 flex: 1;
 #border: 1px solid;
 text-align: left;
 display: flex;
 }
-.reviews2 {
+.sophomores {
 #width: auto;
 flex: 1;
 #border: 1px solid;
