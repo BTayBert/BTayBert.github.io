@@ -179,12 +179,12 @@ margin: 3px;
   #position: absolute;
 }
 
-.cakeplayer {
+.introplayer {
   font-size: 30px;
   margin: 5px;
 }
 
-.cakeshot {
+.playerheadshot {
   height: auto;
   max-width: 70px;
   margin-right: 5%;
@@ -214,12 +214,12 @@ margin: 3px;
 .position {
   text-align: middle;
 }
-.cakername {
+.playername {
   font-size: 30px;
   max-width: 180px;
   text-align: middle;
 }
-.caketext {
+.playertext {
   margin-top: 3px;
   flex: 5;
 }
@@ -231,7 +231,7 @@ margin: 3px;
   text-align: left;
   flex: 5;
 }
-.cakediv: hover {
+.playerdiv: hover {
   background-color: #acacac;
   transition: 1s;
 }
@@ -242,9 +242,9 @@ margin: 3px;
   max-height: 560px;
   position: relative;
   border: 10px solid green;
-  background-color: ;
+  background-color: violet;
 }
-.introcake {
+.introcoach {
   font-size: 20px;
   margin: 0px;
 }
@@ -257,7 +257,7 @@ margin: 3px;
   gap: 10px;
   padding: 10px;
 }
-.cakeshot {
+.headshot {
   height: 0px
 }
 .titletest {
@@ -300,14 +300,14 @@ margin: 3px;
   flex-wrap: wrap;
   background-color: violet;
 }
-.review1 {
+.seniors {
 #width: auto;
 flex: 1;
 #border: 1px solid;
 text-align: left;
 display: flex;
 }
-.review2 {
+.sophomores {
 #width: auto;
 flex: 1;
 #border: 1px solid;
